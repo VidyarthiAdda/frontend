@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <!-- card 4 -->
+                    <div class="container shadow rounded-4 py-3">
+                        <img src="./images/4.png" alt="" class="img-fluid my-3 rounded-2">
+                        <h6 class="h5 fw-bold text-center">Management</h6>
+                        <p class="">kuch likhna ho to yaha likh lena
+                            <!-- text message -->
+                        </p>
+                        <div class="text-end">
+                            <a href="" class="btn btn-primary px-4 py-2 rounded-5 shadow">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <!-- card 1 -->
+                    <div class="container shadow rounded-4 py-3">
+                        <img src="./images/1.png" alt="" class="img-fluid my-3 rounded-2">
+                        <h6 class="h5 fw-bold text-center">Engineering</h6>
+                        <p class="">kuch likhna ho to yaha likh lena
+                            <!-- text message -->
+                        </p>
+                        <div class="text-end">
+                            <a href="" class="btn btn-primary px-4 py-2 rounded-5 shadow">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <!-- card 2 -->
+                    <div class="container shadow rounded-4 py-3">
+                        <img src="./images/2.png" alt="" class="img-fluid my-3 rounded-2 ">
+                        <h6 class="h5 fw-bold text-center">Law</h6>
+                        <p class="">kuch likhna ho to yaha likh lena
+                            <!-- text message -->
+                        </p>
+                        <div class="text-end">
+                            <a href="" class="btn btn-primary px-4 py-2 rounded-5 shadow">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <!-- card 3 -->
+                    <div class="container shadow rounded-4 py-3">
+                        <img src="./images/3.png" alt="" class="img-fluid my-3 rounded-2">
+                        <h6 class="h5 fw-bold text-center">Computer Application</h6>
+                        <p class="">kuch likhna ho to yaha likh lena
+                            <!-- text message -->
+                        </p>
+                        <div class="text-end">
+                            <a href="" class="btn btn-primary px-4 py-2 rounded-5 shadow">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+
+
+
+        <style>
+            .overflow-hidden {
+                overflow: hidden;
+            }
+
+            /* marquee slider */
+            .marquee {
+                --gap: 2rem;
+                display: flex;
+                overflow: hidden;
+                user-select: none;
+                gap: var(--gap);
+            
+
+            }
+
+            .marquee__content {
+                flex-shrink: 0;
+                display: flex;
+                justify-content: space-around;
+                min-width: 100%;
+                gap: var(--gap);
+            }
+
+            /* .marquee2 {
+                filter: grayscale(var(--value, 100%));
+                --gap: 3rem;
+                display: flex;
+                overflow: hidden;
+                user-select: none;
+                gap: var(--gap);
+
+            } */
+
+
+            @keyframes scroll {
+                from {
+                    transform: translateX(0);
+                }
+
+                to {
+                    transform: translateX(calc(-100% - var(--gap)));
+                }
+            }
+
+            .scroll {
+                animation: scroll 15s linear infinite;
+            }
+            .bade-log{
+                /* box-shadow: inset 0 0 10px 7px rgba(0, 0, 0, 0.2); */
+            }
+        </style>
+        <div class="container py-5 px-0 rounded-5 shadow" style="background-image: url('./images/back.png'); background-size: cover;">
+
+            <div class="text-center">
+                <p class="h1 fw-bolder">Start Learning with Vidyarthiadda</p>
+                <p class="h5 my-3">Get unlimited access to structured courses & doubt clearing sessions</p>
+                <a href="" class="btn fw-bold btn-light shadow rounded-5 p-2 px-4 mt-4">Start Learning</a>
+            </div>
+
+
+            <div class="pt-5">
+
+                <div class="marquee">
+                    <ul class="marquee__content scroll">
+                        <!-- card 3 -->
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="container bg-light shadow rounded-4 py-4 overflow-hidden">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <h6 class="h5">Exam categories</h6>
+                                        <p class="fs-1 lh-1 fw-bold pt-0">60+</p>
+                                    </div>
+                                    <div class="col-3 pt-4">
+                                        <img src="./images/exam.png" alt="" class="img-fluid" style="max-width: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="container bg-light shadow rounded-4 py-4 overflow-hidden">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <h6 class="h5">Educators</h6>
+                                        <p class="fs-1 lh-1 fw-bold pt-0">14k+</p>
+                                    </div>
+                                    <div class="col-3 pt-4">
+                                        <img src="./images/exam.png" alt="" class="img-fluid" style="max-width: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="container bg-light shadow rounded-4 py-4 overflow-hidden">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <h6 class="h5">Daily Live Classes</h6>
+                                        <p class="fs-1 lh-1 fw-bold pt-0">1.5k+</p>
+                                    </div>
+                                    <div class="col-3 pt-4">
+                                        <img src="./images/exam.png" alt="" class="img-fluid" style="max-width: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+
+                    <ul class="marquee__content scroll" aria-hidden="true">
+
+                         <!-- card 3 -->
+                         <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="container bg-light shadow rounded-4 py-4 overflow-hidden">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <h6 class="h5">Exam categories</h6>
+                                        <p class="fs-1 lh-1 fw-bold pt-0">60+</p>
+                                    </div>
+                                    <div class="col-3 pt-4">
+                                        <img src="./images/exam.png" alt="" class="img-fluid" style="max-width: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="container bg-light shadow rounded-4 py-4 overflow-hidden">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <h6 class="h5">Educators</h6>
+                                        <p class="fs-1 lh-1 fw-bold pt-0">14k+</p>
+                                    </div>
+                                    <div class="col-3 pt-4">
+                                        <img src="./images/exam.png" alt="" class="img-fluid" style="max-width: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="container bg-light shadow rounded-4 py-4 overflow-hidden">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <h6 class="h5">Daily Live Classes</h6>
+                                        <p class="fs-1 lh-1 fw-bold pt-0">1.5k+</p>
+                                    </div>
+                                    <div class="col-3 pt-4">
+                                        <img src="./images/exam.png" alt="" class="img-fluid" style="max-width: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- 404 error -->
+<style>
+        .animate {
+            background-image: url('./images/back.png');
+            background-size: cover;
+            background-repeat: none;
+        }
+
+        .error {
+            /* animation: 3s ease-in-out 0ms infinite alternate none running shadow2; */
+            /* position: absolute; */
+            font-weight: 900;
+            font-size: 150px;
+        }
+
+        .one,
+        .three {
+            position: relative;
+            padding: 0%;
+            margin: 0;
+        }
+
+        .one {
+            animation: 2s ease-in-out 0ms infinite alternate none running move2;
+        }
+
+        .three {
+            animation: 2s ease-in-out 300ms infinite alternate none running move2;
+        }
+
+        .error-content {
+            font-size: 24px;
+        }
+
+        @media screen and (max-width:281px) {
+            .error {
+
+                font-size: 100px;
+            }
+
+            .error-content {
+                font-size: 16px;
+            }
+
+            .astro {
+                position: absolute;
+                top: 130px !important;
+                left: 70% !important;
+                shadow: 0 0 4px black;
+
+            }
+
+            .planet {
+                position: absolute;
+                top: -10px !important;
+                left: 0% !important;
+                shadow: 0 0 4px black;
+
+            }
+        }
+
+        @keyframes move2 {
+
+            0%,
+            100% {
+                top: -10px;
+            }
+
+            50% {
+                top: 0px;
+            }
+        }
+
+        .astro {
+            position: absolute;
+            top: 55%;
+            left: 63%;
+            shadow: 0 0 4px black;
+        }
+
+        .planet {
+            position: absolute;
+            top: 0%;
+            left: 30%;
+            shadow: 0 0 4px black;
+        }
+    </style>
+
+    <section class="animate">
+        <div class="container">
+
+            <div class="py-5 ">
+
+
+
+
+                <div class="text-center position-relative">
+                    <div class="astro">
+                        <img src="./images/astronaut.png" alt="" height="80px" class="one">
+                    </div>
+                    <div class="planet">
+                        <img src="./images/planet (1).png" alt="" height="100px" class="three">
+
+                    </div>
+                    <div class="py-5">
+                        <h1 class="error">
+                            404
+                        </h1>
+                    </div>
+                    <p class="error-content">Sorry page not found</p>
+                    <a href="#" class="btn btn-primary rounded-5 shadow px-3 mt-3">Home page</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    <!-- 404 error -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
