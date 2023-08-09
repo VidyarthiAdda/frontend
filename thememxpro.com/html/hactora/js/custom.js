@@ -224,9 +224,9 @@ if($('.anim-menu-btn').length){
 }
 
 //features-two-sec-single anim
-if($('.features-two-sec-single').length){
-    $('.features-two-sec-single').on("mouseenter", function() {
-        $('.features-two-sec-single').removeClass('active');
+if($('.mouse').length){
+    $('.mouse').on("mouseenter", function() {
+        $('.mouse').removeClass('active');
         $(this).addClass('active');
     })
 }
