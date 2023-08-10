@@ -4922,6 +4922,14 @@
     transform: translateX(1px) translateY(4px);
 
 }
+.va_blue_bg
+{
+    background-color: #03a9f4;
+}
+.va_blue_text
+{
+    color: #03a9f4;
+}
 
 
 
