@@ -170,14 +170,19 @@ sortableMasonry();
     
 
 // Counter Box
-function CounterNumberbox () {
-	var timer = $('.timer');
-	if(timer.length) {
-		timer.appear(function () {
-			timer.countTo();
-		})
-	}
-}
+function CounterNumberbox() {
+    var timer = $('.timer');
+    if (timer.length) {
+      timer.appear(function () {
+        timer.countTo({
+          formatter: function (value, options) {
+            return value.toFixed(options.decimals) + '+';
+          },
+        });
+      });
+    }
+  }
+  
     
     
 
