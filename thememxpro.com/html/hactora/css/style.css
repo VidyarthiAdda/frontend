@@ -3882,35 +3882,6 @@
      margin: 0;
  }
  
- .project-details-right {
-     position: relative;
-     display: block;
-     background: #f7f7f7;
-     padding: 30px;
-     margin-top: -320px;
- }
- .project-details-right ul{}
- .project-details-right ul li {
-     border: 1px solid #eeeeee;
-     background: #ffffff;
-     padding: 20px 20px 20px;
-     margin-bottom: 20px;
- }
- .project-details-right ul li:last-child{
-     margin-bottom: 0;
- }
- .project-details-right ul li h4 {
-     font-size: 18px;
-     font-weight: 700;
-     line-height: 30px;
- }
- .project-details-right ul li p{
-     font-size: 18px;
-     font-weight: 500;
-     margin: 0;
-     color: #797672;
- }
- 
  
  .project-details-benifits-section {
      padding: 52px 0 100px;
